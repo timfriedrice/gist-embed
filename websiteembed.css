@@ -1,0 +1,29 @@
+.slideshow {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+}
+
+.slide.active {
+  display: block;
+}
+
+.controls {
+  text-align: center;
+  margin-top: 10px;
+}
+
+button {
+  font-size: 10px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+body {
+  background-color: #353434; /* Sets the background for the entire page */
+}
