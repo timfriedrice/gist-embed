@@ -5,12 +5,12 @@
 }
 
 .slide {
-  display: none;
+  display: none; /* Hide all slides by default */
   width: 100%;
 }
 
 .slide.active {
-  display: block;
+  display: block; /* Only the active slide is visible */
 }
 
 .controls {
@@ -19,7 +19,7 @@
 }
 
 button {
-  font-size: 10px;
+  font-size: 18px;
   padding: 6px 12px;
   cursor: pointer;
 }
