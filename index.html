@@ -1,16 +1,36 @@
-<div class="slideshow">
-  <video class="slide active" src="https://i.imgur.com/VvbhDXh.mp4" autoplay loop muted></video>
-  <video class="slide" src="https://i.imgur.com/UtZ7U5Q.mp4" autoplay loop muted></video>
-  <video class="slide" src="https://i.imgur.com/vPSxKs2.mp4" autoplay loop muted></video>
-  <video class="slide" src="https://i.imgur.com/rqfPmbb.mp4" autoplay loop muted></video>
-  <video class="slide" src="https://i.imgur.com/pXBKHba.mp4" autoplay loop muted></video>
-  <video class="slide" src="https://i.imgur.com/6ULU3FM.mp4" autoplay loop muted></video>
-  <video class="slide" src="https://i.imgur.com/GWUvq3J.mp4" autoplay loop muted></video>
-  <video class="slide" src="https://i.imgur.com/K80SSdQ.mp4" autoplay loop muted></video>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Slideshow</title>
 
+  <!-- Link external CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-  <div class="controls">
-    <button onclick="prevSlide()">◀</button>
-    <button onclick="nextSlide()">▶</button>
+  <!-- Slideshow container -->
+  <div class="slideshow">
+    <!-- Video slides -->
+    <video class="slide active" src="https://i.imgur.com/VvbhDXh.mp4" autoplay loop muted></video>
+    <video class="slide" src="https://i.imgur.com/UtZ7U5Q.mp4" autoplay loop muted></video>
+    <video class="slide" src="https://i.imgur.com/vPSxKs2.mp4" autoplay loop muted></video>
+    <video class="slide" src="https://i.imgur.com/rqfPmbb.mp4" autoplay loop muted></video>
+    <video class="slide" src="https://i.imgur.com/pXBKHba.mp4" autoplay loop muted></video>
+    <video class="slide" src="https://i.imgur.com/6ULU3FM.mp4" autoplay loop muted></video>
+    <video class="slide" src="https://i.imgur.com/GWUvq3J.mp4" autoplay loop muted></video>
+    <video class="slide" src="https://i.imgur.com/K80SSdQ.mp4" autoplay loop muted></video>
+
+    <!-- Navigation controls -->
+    <div class="controls">
+      <button type="button" onclick="prevSlide()">◀</button>
+      <button type="button" onclick="nextSlide()">▶</button>
+    </div>
   </div>
-</div>
+
+  <!-- Link external JavaScript -->
+  <script src="scripts.js" defer></script>
+
+</body>
+</html>
